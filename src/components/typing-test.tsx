@@ -25,7 +25,7 @@ export function TypingTest() {
   } = useTranscriptionLogic(PARAGRAPH, MAX_TIME);
 
   return (
-    <div className="max-w-[850px] m-1 w-[calc(100%-10px)] p-7 rounded-lg border bg-primary-foreground shadow-[0_0_40px_rgba(144,19,179,0.40)]">
+    <div className="relative max-w-[850px] m-1 w-[calc(100%-10px)] p-7 rounded-lg border bg-primary-foreground shadow-[0_0_40px_rgba(144,19,179,0.40)]">
       <TranscribePlayground
         hasFinished={hasFinished}
         inputRef={inputRef}
